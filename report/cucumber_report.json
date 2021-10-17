@@ -1,0 +1,141 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page;user-dapat-melihat-validasi-form",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User dapat melihat validasi form",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open browser 'login' page bukalapak.com",
+            "match": {
+              "location": "step-definitions\\login.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User input 'ahmadsutarji15@gmail.com' as email or phone no",
+            "match": {
+              "location": "step-definitions\\login.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User click button Lanjut",
+            "match": {
+              "location": "step-definitions\\login.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User input 'jibon123' as password",
+            "match": {
+              "location": "step-definitions\\login.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User input 'fifa 22 pc steam' on search field",
+            "match": {
+              "location": "step-definitions\\search.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User choose product on page",
+            "match": {
+              "location": "step-definitions\\addToCart.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User add to cart product",
+            "match": {
+              "location": "step-definitions\\addToCart.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User success add product to cart",
+            "match": {
+              "location": "step-definitions\\addToCart.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9563000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@s1",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login page",
+    "tags": [],
+    "uri": "features\\addToCart.feature"
+  }
+]
